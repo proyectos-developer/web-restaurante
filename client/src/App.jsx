@@ -29,19 +29,19 @@ import ContactanosPanelCell from './components/contactanos/panelcell.jsx'
 
 export default function App() {
 
-  const [width, setWidth] = useState(window.outerWidth)
+    const [width, setWidth] = useState(window.outerWidth)
 
-  useEffect(() => {
-      window.addEventListener('resize', handle_resize)
+    useEffect(() => {
+        window.addEventListener('resize', handle_resize)
 
-      return () => {
-          window.removeEventListener('resize', handle_resize)
-      }
-  }, [])
+        return () => {
+            window.removeEventListener('resize', handle_resize)
+        }
+    }, [])
 
-  const handle_resize = () => {
-      setWidth(window.outerWidth)
-  }
+    const handle_resize = () => {
+        setWidth(window.outerWidth)
+    }
 
     return (
       <BrowserRouter>
