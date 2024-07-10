@@ -1,10 +1,14 @@
 import React from 'react'
 
-export default function MenuPanelCell({proporcional}) {
-    
+import MenuSuperiorCell from '../comun/menusuperiorcell.jsx'
+import EntradasCell from '../comun/entradascell.jsx'
+
+export default function MenuPanel({proporcional}) {
+
     return (
-        <div>
-        
+        <div style={{width: '100%', height: 'auto'}}>
+            <MenuSuperiorCell proporcional={proporcional}/>
+            <EntradasCell proporcional={proporcional}/>
         </div>
     )
 }

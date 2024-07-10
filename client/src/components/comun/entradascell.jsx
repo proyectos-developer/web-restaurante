@@ -5,10 +5,10 @@ import image_01 from '../../assets/images/image_menu_450_00.png'
 import image_02 from '../../assets/images/image_menu_650_03.png'
 import image_03 from '../../assets/images/image_menu_450_02.png'
 
-export default function EntradasTablet({proporcional}) {
+export default function EntradasCell({proporcional}) {
 
     return (
-        <div style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional, paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional}}>
+        <div style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional, paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
             <div style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
                 <p className='' 
                     style={{fontSize: 50 / proporcional, lineHeight: `${60 / proporcional}px`, 
@@ -19,10 +19,10 @@ export default function EntradasTablet({proporcional}) {
             </div>
             <div style={{width: '100%', height: 'auto'}}>
                 <div className='' style={{width: '100%', height: 'auto'}}>
-                    <div className='' style={{width: '100%', height: 'auto', marginBottom: 32 / proporcional}}>
-                        <img src={image_01} style={{width: 'auto', height: 'auto'}}/>
+                    <div className='' style={{width: 459 / proporcional, height: 'auto', marginBottom: 32 / proporcional}}>
+                        <img src={image_01} style={{width: 459 / proporcional, height: 459 / proporcional}}/>
                     </div>
-                    <div className='' style={{width: '100%', height: 'auto'}}>
+                    <div className='' style={{width: 459 / proporcional, height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto', marginBottom: 20 / proporcional}}>
                             <p className='' 
                                 style={{fontSize: 40 / proporcional, lineHeight: `${60 / proporcional}px`, 
@@ -163,7 +163,7 @@ export default function EntradasTablet({proporcional}) {
 
                 <div className='' style={{width: '100%', height: 'auto'}}>
                     <div className='' style={{width: '100%', height: 'auto', marginBottom: 32 / proporcional}}>
-                        <img src={image_00} style={{width: 'auto', height: 'auto'}}/>
+                        <img src={image_00} style={{width: 459 / proporcional, height: 459 / proporcional}}/>
                     </div>
                     <div className='position-relative' style={{width: '100%', height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto', marginBottom: 20 / proporcional}}>
@@ -263,7 +263,7 @@ export default function EntradasTablet({proporcional}) {
 
                 <div className='' style={{width: '100%', height: 'auto'}}>
                     <div className='' style={{width: '100%', height: 'auto', marginBottom: 32 / proporcional}}>
-                        <img src={image_03} style={{width: 'auto', height: 'auto'}}/>
+                        <img src={image_03} style={{width: 459 / proporcional, height: 459 / proporcional}}/>
                     </div>
                     <div className='' style={{width: '100%', height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto', marginBottom: 20 / proporcional}}>
@@ -405,7 +405,7 @@ export default function EntradasTablet({proporcional}) {
 
                 <div className='' style={{width: '100%', height: 'auto'}}>
                     <div className='' style={{width: '100%', height: 'auto', marginBottom: 32 / proporcional}}>
-                        <img src={image_02} style={{width: 'auto', height: 'auto'}}/>
+                        <img src={image_02} style={{width: 459 / proporcional, height: 459 / proporcional}}/>
                     </div>
                     <div className='' style={{width: '100%', height: 'auto'}}>
                         <div style={{width: '100%', height: 'auto', marginBottom: 20 / proporcional}}>

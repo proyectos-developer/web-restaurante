@@ -4,10 +4,10 @@ import image_00 from '../../assets/images/image_blog_900_00.png'
 import image_01 from '../../assets/images/image_blog_900_01.png'
 import image_02 from '../../assets/images/image_blog_900_02.png'
 
-export default function BlogTablet({proporcional}) {
+export default function BlogCell({proporcional}) {
 
     return (
-        <div style={{width: '100%', height: 'auto', paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional, paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional}}>
+        <div style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional, paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional}}>
             <div style={{width: '100%', height: 'auto'}}>
                 <div style={{width: '100%', height: 'auto', marginBottom: 100 / proporcional}}>
                     <p className='' 
@@ -21,7 +21,7 @@ export default function BlogTablet({proporcional}) {
                     <div style={{width: '100%', height: 'auto', marginBottom: 100 / proporcional}}>
                         <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
                             <div className='position-relative' style={{width: 'auto', height: 'auto'}}>
-                                <img src={image_00} style={{width: '100%', height: 600 / proporcional}}/>
+                                <img src={image_00} style={{width: '100%', height: 459 / proporcional}}/>
                                 <div className='position-absolute top-0 end-0' style={{width: 200 / proporcional, height: 50 / proporcional, background: '#004669'}}>
                                     <p className='' 
                                         style={{fontSize: 22 / proporcional, lineHeight: `${50 / proporcional}px`, 
@@ -64,7 +64,7 @@ export default function BlogTablet({proporcional}) {
                     <div style={{width: '100%', height: 'auto', marginBottom: 100 / proporcional}}>
                         <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
                             <div className='position-relative' style={{width: 'auto', height: 'auto'}}>
-                                <img src={image_01} style={{width: '100%', height: 600 / proporcional}}/>
+                                <img src={image_01} style={{width: '100%', height: 459 / proporcional}}/>
                                 <div className='position-absolute top-0 end-0' style={{width: 200 / proporcional, height: 50 / proporcional, background: '#004669'}}>
                                     <p className='' 
                                         style={{fontSize: 22 / proporcional, lineHeight: `${50 / proporcional}px`, 
@@ -107,7 +107,7 @@ export default function BlogTablet({proporcional}) {
                     <div style={{width: '100%', height: 'auto'}}>
                         <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
                             <div className='position-relative' style={{width: 'auto', height: 'auto'}}>
-                                <img src={image_02} style={{width: '100%', height: 600 / proporcional}}/>
+                                <img src={image_02} style={{width: '100%', height: 459 / proporcional}}/>
                                 <div className='position-absolute top-0 end-0' style={{width: 200 / proporcional, height: 50 / proporcional, background: '#004669'}}>
                                     <p className='' 
                                         style={{fontSize: 22 / proporcional, lineHeight: `${50 / proporcional}px`, 
